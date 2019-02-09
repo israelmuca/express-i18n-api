@@ -1,2 +1,2 @@
-# node-i18n-example
-Small example for a i18n in node tutorial.
+# node-i18n-validation-example
+Small example for an i18n + validation tutorial in node.
