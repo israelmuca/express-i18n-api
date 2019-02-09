@@ -1,0 +1,27 @@
+{
+  "name": "node-i18n-example",
+  "version": "0.0.1",
+  "description": "Small example for a i18n in node tutorial.",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/israelmuca/node-i18n-validation-example.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "i18n",
+    "polyglot",
+    "tutorial",
+    "example"
+  ],
+  "author": "IsraelMuCa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/israelmuca/node-i18n-validation-example/issues"
+  },
+  "homepage": "https://github.com/israelmuca/node-i18n-validation-example#readme"
+}
