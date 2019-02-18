@@ -24,7 +24,7 @@ router.use(startPolyglot)
 
 // Routes
 // =============================================================
-require("./routes/test.routes")(router)
+require("./routes/auth.routes")(router)
 
 // Start the server!
 // =============================================================
