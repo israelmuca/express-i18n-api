@@ -3,7 +3,7 @@
 import express from 'express'
 import createLocaleMiddleware from 'express-locale'
 import bodyParser from 'body-parser'
-import startPolyglot from './utilities/startPolyglot'
+import { startPolyglot } from './utilities/startPolyglot'
 
 
 // Setup the express router
