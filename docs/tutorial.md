@@ -478,4 +478,7 @@ module.exports = router => {
 
 As you can see, we’re importing both `login` and `forgotPassword`, and adding them in the `post` as the final parameter.
 
-So that’s it! Now, if we test our API with Postman, we’ll see our error messages being sent in our selected language TODO: FINISH! ! !
+So that’s it on the code.  
+Now, lets go to , we’ll see our error messages being sent in our selected language using Postman.  
+
+>TODO: Add postman info
