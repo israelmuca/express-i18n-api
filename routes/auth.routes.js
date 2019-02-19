@@ -1,11 +1,14 @@
+import { validator } from '../validator/auth.validator'
+import { login,
+        forgotPassword } from '../controller/auth.controller'
+
 // Routes =============================================================
 module.exports = router => {
 
-    // GET route to mock a login  endpoint
-    router.post("/api/login")
+    // POST route to mock a login  endpoint
+    router.post("/api/login", validator('login'), login)
 
-    // GET route to mock a forgotten password endpoint
-    router.post("/api/forgot-password")
-
+    // POST route to mock a forgotten password endpoint
+    router.post("/api/forgot-password", validator('forgotPassword'), forgotPassword)
 
 }
