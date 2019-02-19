@@ -481,4 +481,6 @@ As you can see, we’re importing both `login` and `forgotPassword`, and adding 
 So that’s it on the code.  
 Now, lets go to , we’ll see our error messages being sent in our selected language using Postman.  
 
+### Testing our API with Postman
+
 >TODO: Add postman info
