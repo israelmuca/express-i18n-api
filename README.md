@@ -15,8 +15,7 @@ I created this example based on a project I recently did for an API which had to
 - [Postman](https://www.getpostman.com/) or similar software
 
 ## Getting started
-
-// TODO:
+###TBD
 
 ## Built with
 - [Node.js](https://nodejs.org/)
