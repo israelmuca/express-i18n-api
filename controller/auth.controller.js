@@ -10,6 +10,8 @@ exports.login = (req, res) => {
     // If no validation errors, get the req.body objects that were validated and are needed
     const { email, password } = req.body
 
+    // Here, we would make use of that data, validating it against our database, creating a JWT token, etc...
+
     // Since all the validations passed, we send the loginSuccessful message, which would normally include a JWT or some other form of authorization
     return res.status(200).send({ auth: true, message: req.polyglot.t('loginSuccessful'), token: null })
 }
@@ -27,6 +29,8 @@ exports.forgotPassword = (req, res) => {
     // If no validation errors, get the req.body objects that were validated and are needed
     const { email } = req.body
 
+    // Here, we would make use of that data, validating it against our database, creating a JWT token, etc...
+    
     // Since all the validations passed, we send the emailSent message
     return res.status(200).send({ auth: true, message: req.polyglot.t('emailSent') })
 }
