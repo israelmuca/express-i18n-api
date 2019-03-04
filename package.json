@@ -4,7 +4,7 @@
   "description": "Small example for a i18n in node tutorial.",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon --exec babel-node ./src/server.js",
+    "start": "npm run build && node ./dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf dist && mkdir dist",
     "compile": "babel -d ./dist ./src",
