@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "npm run build && node ./dist/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --require @babel/register ./dist/tests/*.js --timeout 15000 -s 0",
     "clean": "rm -rf dist && mkdir dist",
     "compile": "babel -d ./dist ./src",
     "build": "npm run clean && npm run compile"
@@ -40,6 +40,9 @@
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.3.1",
-    "nodemon": "^1.18.10"
+    "@babel/register": "^7.0.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^6.0.2"
   }
 }
