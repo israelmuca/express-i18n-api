@@ -10,6 +10,9 @@ import { startPolyglot } from './utilities/startPolyglot'
 // =============================================================
 const router = express()
 
+// Set the port to be used
+const port = process.env.PORT || 8080
+
 // Add data parsing to express
 router.use(bodyParser.urlencoded({ extended: true }))
 router.use(bodyParser.json())
@@ -29,6 +32,6 @@ require("./routes/auth.routes")(router)
 
 // Start the server!
 // =============================================================
-router.listen(8080, () => {
-    console.log(`App running on port 8080`) 
+router.listen(port, () => {
+    console.log(`App running on port ${port}`) 
 })
