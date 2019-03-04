@@ -1,4 +1,4 @@
-# i18n Express API server
+# Express i18n API
 
 **Validate incoming data, and respond in the user's language**
 
