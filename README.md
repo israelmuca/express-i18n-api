@@ -15,6 +15,7 @@ I created this example based on a project I recently did for an API which had to
 - [Postman](https://www.getpostman.com/) or similar software
 
 ## Getting started
+Check out [this](https://israelmuca.dev/blog/how-to-international-api-i18n-validation-in-node-js-for-your-api) guide for a more thorough reading, or jump straight ahead for more concise instructions.
 
 ### Test API without installing anything:
 ---
