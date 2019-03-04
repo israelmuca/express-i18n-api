@@ -17,15 +17,15 @@ I created this example based on a project I recently did for an API which had to
 ## Getting started
 
 ### Test API without installing anything:
---
+---
 > **Live API:**
 >
 >https://express-i18n-api.herokuapp.com/
 >
-> Express listens on `/api/login` and `/api/forgot-password`
-> login expects `email` and `password`; forgot-password only an `email`
+> Express listens on `/api/login` and `/api/forgot-password`  
+> login expects `email` and `password`; forgot-password only an `email`  
 > Remember to set your headers to _es_MX_ to see it in action in Spanish
---
+---
 
 ### Run the code locally
 Clone the repo, then install dependencies:
