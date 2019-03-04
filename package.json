@@ -1,7 +1,7 @@
 {
-  "name": "node-i18n-example",
+  "name": "express-i18n-api",
   "version": "0.0.1",
-  "description": "Small example for a i18n in node tutorial.",
+  "description": "API made with Express to exemplify how to implement i18n with express-validator.",
   "main": "server.js",
   "scripts": {
     "start": "npm run build && node ./dist/server.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/israelmuca/node-i18n-validation-example.git"
+    "url": "git+https://github.com/israelmuca/express-i18n-api.git"
   },
   "keywords": [
     "node",
@@ -23,11 +23,11 @@
     "example"
   ],
   "author": "IsraelMuCa",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/israelmuca/node-i18n-validation-example/issues"
+    "url": "https://github.com/israelmuca/express-i18n-api/issues"
   },
-  "homepage": "https://github.com/israelmuca/node-i18n-validation-example#readme",
+  "homepage": "https://github.com/israelmuca/express-i18n-api#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
