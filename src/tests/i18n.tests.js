@@ -1,13 +1,15 @@
+// Import dependencies
+// =============================================================
 import chai from 'chai'
 import chaiHttp from 'chai-http'
 import { messages } from '../i18n/i18n'
 
 chai.use(chaiHttp)
-
 const expect = chai.expect
 const url = 'http://localhost:8080'
 
 // Test translations
+// =============================================================
 describe('Translations: ', () => {
 
     it("should pass if the 'es' and 'en' objects have the same keys", done => {
