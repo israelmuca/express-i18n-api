@@ -7,8 +7,8 @@
     "start": "npm run build && node ./dist/server.js",
     "test": "mocha --require @babel/register ./dist/tests/*.js --timeout 15000 -s 0",
     "clean": "rm -rf dist && mkdir dist",
-    "compile": "babel -d ./dist ./src",
-    "build": "npm run clean && npm run compile"
+    "transpile": "babel -d ./dist ./src",
+    "build": "npm run clean && npm run transpile"
   },
   "repository": {
     "type": "git",
