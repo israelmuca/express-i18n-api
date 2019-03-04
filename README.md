@@ -45,6 +45,13 @@ The console should read:
 App running on port 8080
 ```
 
+While the API is running, you can also run tests with:
+```shell
+npm run test
+```
+
+Or, you can jump straight into Postman:
+
 ### Test with Postman
 - Set the _Method_ to **POST**
 - Set the _Request URL_ to **localhost:8080/api/login** or **localhost:8080/api/forgot-password**
